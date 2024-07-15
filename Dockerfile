@@ -6,6 +6,6 @@ RUN apk --no-cache add tini
 # package is installed in the following line. The --repository part is also required for renovate to work.
 # Check the regex in /renovate.json for details.
 RUN apk --no-cache add --repository community chromium-swiftshader=124.0.6367.207-r0 && \
-  apk add --update --repository=main doas=1.36.0
+  apk add --update --repository=main doas=6.8.2-r7
 
 
